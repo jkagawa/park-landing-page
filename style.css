@@ -1,0 +1,42 @@
+* {
+    border: 1px solid red;
+}
+
+/* .nav-bar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+} */
+
+.navbar .container {
+    height: 3rem;
+}
+
+.background-container {
+    position: fixed;
+    z-index: -1;
+}
+
+.background-img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 0 35%;
+}
+
+#about {
+    margin-top: 64px;
+    height: 100vh;
+}
+
+#about .container {
+    margin: 0;
+}
+
+/* @media only screen and (min-width: 641px) {
+    .background-img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        object-position: 0 35%;
+    }
+} */
