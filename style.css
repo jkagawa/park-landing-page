@@ -1,26 +1,8 @@
-* {
-    /* border: 1px solid red; */
-}
-
-.navbar .container {
-    max-width: 100%;
-}
-
 .fa-brands {
-    color: white;
     font-size: 2.5rem;
 }
 
-.fa-bars {
-    font-size: 1.5rem;
-}
-
 .navbar-toggler {
-    color: white;
-}
-
-.navbar-toggler {
-    color: white;
     border-color: rgba(255,255,255,.5);
 }
 
@@ -28,14 +10,8 @@
     box-shadow: 0 0 0 0.2rem;
 }
 
-.nav-item {
-    text-align: right;
-}
-
 .background-container {
-    position: fixed;
     z-index: -1;
-    top: 0;
 }
 
 .background-img {
@@ -43,12 +19,10 @@
     height: 100vh;
     object-fit: cover;
     object-position: 0 35%;
-    /* opacity: 0.9; */
     filter: brightness(0.5);
 }
 
 #about {
-    margin-top: 64px;
     height: 100vh;
 }
 
@@ -64,7 +38,6 @@
 }
 
 .gallery-img {
-    width: 100%;
     height: 300px;
     object-fit: cover;
 }
@@ -86,25 +59,21 @@
     max-width: 100% !important;
 }
 
-/* START === Custom scrollbar for gallery */
+/* Custom scrollbar for gallery */
 .overflow-auto::-webkit-scrollbar {
     width: 20px;
 }
-
 .overflow-auto::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.7);
     border-radius: 10px;
 }
-
 .overflow-auto::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
 }
-
 .overflow-auto::-webkit-scrollbar-thumb:hover {
     background: white;
 }
-/* END === Custom scrollbar for gallery */
 
 @media only screen and (min-width: 992px) {
     .nav-item {
