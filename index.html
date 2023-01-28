@@ -8,22 +8,23 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/3ef1af0600.js" crossorigin="anonymous"></script>
 <title>Welcome to Lukios National Park</title>
 </head>
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a href="#" class="navbar-brand">Lukios National Park</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span class="navbar-toggler-icon"></span></button>
+            <a href="#" class="navbar-brand"><i class="fa-brands fa-canadian-maple-leaf"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><i class="fa-solid fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#photos" class="nav-link">Photos</a>
+                        <a href="#photos" class="nav-link text-light h5">Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#map" class="nav-link">Map</a>
+                        <a href="#map" class="nav-link text-light h5">Map</a>
                     </li>
                 </ul>
             </div>
@@ -37,36 +38,52 @@
 
     <!-- About section -->
     <section id="about" class="text-light text-left p-3 mb-5 d-flex justify-content-start align-items-center">
-        <div class="container d-flex justify-content-start align-items-center col-lg-8">
-                <div class="d-flex bg-dark justify-center-evenly flex-column">
-                    <h1 class="col-lg-6 col-md-6 pe-sm-5">Lukios National Park</h1>
+        <div class="container d-flex justify-content-start align-items-center col-lg-8 m-0">
+                <div class="d-flex justify-center-evenly flex-column">
+                    <h1 class="display-1">Lukios National Park</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et adipisci esse fugiat sapiente. Accusamus vel ea aliquid alias, ducimus fugit corporis atque tempora animi autem non rerum. Temporibus, dicta tempora.</p>
                 </div>
         </div>
     </section>
 
     <!-- Photos section -->
-    <section id="photos" class="p-10 p-lg-0 lg-10 text-center text-sm-start">
-        <div class="container mt-10 p-5">
-            <div class="row-md col-sm">
-                <div class="d-sm-flex align-items-center justify content-evenly">
-                    <h1 class="p-5 col-lg-2 col-md-6"></h1>
+    <section id="photos" class="mt-6 mb-6 text-light">
+        <h1 class="p-3">Highlight Photos</h1>
+        <div class="overflow-auto">
+            <div class="gallery-container">
+                <div class="gallery-img-container">
+                    <img src="static/images/johannes-andersson-UCd78vfC8vU-unsplash.jpg" alt="" class="img-fluid shadow gallery-img rounded-lg">
+                </div>
+                <div class="gallery-img-container">
+                    <img src="static/images/johannes-andersson-UCd78vfC8vU-unsplash.jpg" alt="" class="img-fluid shadow gallery-img rounded-lg">
+                </div>
+                <div class="gallery-img-container">
+                    <img src="static/images/johannes-andersson-UCd78vfC8vU-unsplash.jpg" alt="" class="img-fluid shadow gallery-img rounded-lg">
+                </div>
+                <div class="gallery-img-container">
+                    <img src="static/images/johannes-andersson-UCd78vfC8vU-unsplash.jpg" alt="" class="img-fluid shadow gallery-img rounded-lg">
+                </div>
+                <div class="gallery-img-container rounded">
+                    <img src="static/images/johannes-andersson-UCd78vfC8vU-unsplash.jpg" alt="" class="img-fluid shadow gallery-img rounded-lg">
                 </div>
             </div>
         </div>
+        
+            
     </section>
 
     <!-- Map section -->
-    <section id="map" class="bg-dark text-light p-10 pt-lg-10 p-lg-0 text-center text-sm-start shadow">
-        <div class="container mt-10 p-5">
-            <div class="d-sm-flex align-items-center justify-content-evenly">
-                <h1 class="p-5 col-lg-2 cold-md-6"></h1>
+    <section id="map" class="mt-6 mb-6 text-light">
+        <h1 class="p-3">Where To Find Us</h1>
+        <div class="container d-flex align-items-center justify-content-evenly">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71410.7770691508!2d-119.64621757390063!3d37.72107926934869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8096edd824db8fbd%3A0x57adcc762fb3d403!2sEl%20Capitan!5e0!3m2!1sen!2sus!4v1674929987840!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-embed rounded-lg"></iframe>
             </div>
         </div>
     </section>
 
     <footer>
-        <p class="lead text-center p-3">&copy; Lukios National Park</p>
+        <p class="text-light lead text-center p-3">&copy; Lukios National Park</p>
     </footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
